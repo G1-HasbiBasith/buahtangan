@@ -27,7 +27,7 @@ public class DaftarOleh2 extends Activity {
 	String[] daftarOleh2;
 	String[] daftarDesc;
 	String[] daftarGambar;
-	
+	 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		String[] mentah = createDatabaseLayout();
