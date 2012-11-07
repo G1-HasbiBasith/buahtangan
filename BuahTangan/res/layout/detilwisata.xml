@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+    <TextView 
+        android:id="@+id/detilNamaKotaWisata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        />
+    
+    <View android:id="@+id/separator" android:background="#ffffff"
+		android:layout_width="fill_parent" android:layout_height="1dp"
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp" />
+    
+    <ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+    <ImageButton 
+        android:id="@+id/shareFBWisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detilNamaKotaWisata"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/icon_fb"
+        android:background="@android:color/transparent"
+        android:layout_margin="5dp"
+        />
+    <ImageButton 
+        android:id="@+id/shareTwitterWisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detilNamaKotaWisata"
+        android:layout_toLeftOf="@id/shareFBWisata"
+        android:src="@drawable/icon_twitter"
+        android:background="@android:color/transparent"
+        android:layout_margin="5dp"
+        />
+    <ImageView 
+        android:id="@+id/fotoWisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:maxWidth="100dp"
+        android:layout_below="@id/shareFBWisata"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        />
+    <TextView 
+        android:id="@+id/descWisata"
+        android:layout_below="@id/fotoWisata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        />
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

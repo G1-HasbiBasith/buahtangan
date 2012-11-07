@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:id="@+id/help"
+        android:icon="@drawable/ic_help" 
+        android:title="Bantuan"/>
+    <item android:id="@+id/about"
+        android:title="Tentang" 
+        android:icon="@drawable/ic_info"/>
+    <item android:id="@+id/settings"
+        android:title="Pengaturan"
+        android:icon="@drawable/ic_preferences" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView 
+    	android:id="@+id/oleh2Kota" android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+			android:textStyle="bold"/>
+    <ListView android:id="@+id/listViewOleh2" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:divider="#E3E3E3" android:dividerHeight="1dp"/>
+</LinearLayout>

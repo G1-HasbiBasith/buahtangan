@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<ProgressBar
+android:id="@+id/progress"
+android:layout_width="108px"
+android:layout_height="105px"
+android:layout_x="100px"
+android:layout_y="152px"
+>
+</ProgressBar>
+</AbsoluteLayout>
